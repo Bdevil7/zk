@@ -919,7 +919,7 @@
                 <button class="btn" id="unlockBtn">🔓 解锁</button>
             </div>
             <div class="lock-error" id="lockError"></div>
-            <div style="margin-top:16px;font-size:12px;color:#1d4a7a;opacity:0.5;">提示：四个数字 · 她的生日</div>
+            <div style="margin-top:16px;font-size:12px;color:#1d4a7a;opacity:0.5;">提示：四个数字 · 你的生日</div>
         </div>
 
         <!-- ===== 主内容 ===== -->
