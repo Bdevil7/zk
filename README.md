@@ -912,7 +912,7 @@
         <!-- ===== 密码锁 ===== -->
         <div id="lockPage">
             <div class="lock-icon">🔐</div>
-            <h2>🎂 ZK · 18</h2>
+            <h2>🎂 张珂 · 18</h2>
             <p>请输入访问密码，解锁生日惊喜 ✨</p>
             <div class="lock-input-group">
                 <input type="password" id="passwordInput" maxlength="6" placeholder="· · · ·" inputmode="numeric" />
@@ -951,7 +951,7 @@
             <!-- ===== 解密序列 ===== -->
             <div id="unlockSequence">
                 <div class="seq-emoji" id="seqEmoji">🌟</div>
-                <div class="seq-text" id="seqText">欢迎来到 ZK 的18岁世界</div>
+                <div class="seq-text" id="seqText">欢迎来到张珂的18岁世界</div>
                 <div class="seq-sub" id="seqSub">完成游戏，解锁更多惊喜！</div>
                 <div class="seq-progress" id="seqProgress">
                     <span class="seq-dot" data-step="0"></span>
@@ -978,7 +978,7 @@
                 <div class="canvas-container" id="canvas1"></div>
                 <div class="btn-group">
                     <button class="btn" id="start1">🚀 开始</button>
-                    <button class="btn btn-pink" id="reset1">🔄 重置</button>
+                    <button class="btn btn-pink" id="reset1">🔄 重置（不可用☺️）</button>
                     <button class="btn btn-cheat" id="cheat1" disabled>💀 作弊</button>
                 </div>
                 <div style="text-align:center;font-size:12px;color:#1d4a7a;opacity:0.6;margin-top:6px;">
@@ -996,7 +996,7 @@
                 </div>
                 <div class="btn-group">
                     <button class="btn" id="start2">🚀 开始</button>
-                    <button class="btn btn-pink" id="reset2">🔄 重置</button>
+                    <button class="btn btn-pink" id="reset2">🔄 重置（不可用☺️）</button>
                     <button class="btn btn-cheat" id="cheat2" disabled>💀 作弊</button>
                 </div>
                 <div style="text-align:center;font-size:12px;color:#1d4a7a;opacity:0.6;margin-top:6px;">
@@ -1014,7 +1014,7 @@
                     <div class="story-container" id="storyContainer"></div>
                 </div>
                 <div class="btn-group">
-                    <button class="btn btn-green" id="reset3">🔄 重新开始</button>
+                    <button class="btn btn-green" id="reset3">🔄 重新开始（不可用☺️）</button>
                 </div>
                 <div style="text-align:center;font-size:12px;color:#1d4a7a;opacity:0.6;margin-top:6px;">
                     💡 找出真凶即可通关！
@@ -1078,7 +1078,7 @@
                 🎂 终身享受投喂、陪聊、帮忙骂渣男
             </div>
             <div class="cert-footer">
-                💌 发证机关：你永远的好朋友 wcy<br />
+                💌 发证机关：你永远的好朋友吴宸宇<br />
                 📅 有效期：一辈子
             </div>
             <div class="btn-group" style="margin-top:12px;">
@@ -1145,7 +1145,7 @@
             { emoji: '🔮', text: '🔮 第二道封印 · 记忆之泉', sub: '属于你的18年故事即将展开' },
             { emoji: '🎂', text: '🎂 第三道封印 · 蛋糕之力', sub: '许个愿吧，它一定会实现' },
             { emoji: '💙', text: '💙 第四道封印 · 应援之心', sub: '陈奕恒为你加油！' },
-            { emoji: '🎉', text: '🎉 全部解开 · 18岁快乐！', sub: '欢迎来到 ZK 的成人世界 💖' },
+            { emoji: '🎉', text: '🎉 全部解开 · 18岁快乐！', sub: '欢迎来到张珂的成人世界 💖' },
         ];
 
         let seqStep = -1;
@@ -1990,14 +1990,14 @@
                 title: '🎭 排练室谜案',
                 narrative: '陈奕恒在排练室发现了一张神秘纸条，上面写着：<span class="highlight">"今晚10点，天台见。——？"</span><br>你作为侦探 ZK，需要找出是谁留下的纸条！',
                 suspects: [
-                    { id: 'zhang', name: '张桂源', emoji: '🧑', clues: ['下午在排练室练舞', '看到陈奕恒在写东西'] },
-                    { id: 'zuo', name: '左奇函', emoji: '🧑', clues: ['晚上8点看到有人去天台', '那人穿着蓝色外套'] },
-                    { id: 'yang', name: '杨博文', emoji: '🧑', clues: ['知道有人想给惊喜', '但不知道具体是谁'] },
+                    { id: 'zhang', name: '张桂源', emoji: '🧑', clues: ['下午在排练室练舞', '看到陈奕恒也在'] },
+                    { id: 'zuo', name: '左奇函', emoji: '🧑', clues: ['晚上8点看到有人去天台', '而且有两个人在天台上'] },
+                    { id: 'yang', name: '杨博文', emoji: '🧑', clues: ['知道有人想给惊喜', '但不知道是谁'] },
                     { id: 'chen', name: '陈浚铭', emoji: '🧑', clues: ['纸条字迹有点眼熟', '像是张桂源的字'] },
                 ],
                 answer: {
                     suspectId: 'zhang',
-                    reason: '张桂源下午在排练室看到陈奕恒写东西，晚上又有人去天台，字迹也像他的'
+                    reason: '张桂源下午在排练室看到陈奕恒也在，所以准备约他出去，晚上又有人去天台，字迹也像他的'
                 }
             },
 
